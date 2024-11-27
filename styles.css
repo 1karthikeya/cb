@@ -1,0 +1,26 @@
+/* styles.css */
+.hero {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+}
+
+.features .card {
+  border: none;
+  transition: all 0.3s;
+}
+
+.features .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials blockquote {
+  font-size: 1.25rem;
+  border-left: 5px solid #007bff;
+  padding-left: 15px;
+}
+
+footer {
+  background-color: #343a40;
+}
+
+
